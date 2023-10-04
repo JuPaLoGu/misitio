@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo</title>
+    
+    <!-- Vincula los CDN de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- Estilos personalizados (en línea) -->
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        
+        /* Estilos del menú (igual al de la página de inicio) */
+        .navbar {
+            background-color: #58B2AF;
+        }
+        
+        .navbar a {
+            color: #ffffff;
+        }
+        
+        /* Estilos de las cards */
+        .team-card {
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .team-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de navegación (igual al de la página de inicio) -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="equipo.html">Equipo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="noticias.html">Noticias</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <!-- Cards del equipo -->
+    <div class="container">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="images/foto1.jpg" alt="Miembro 1" class="team-image">
+                    <h3>Miembro 1</h3>
+                    <p>Descripción del perfil del miembro 1.</p>
+                </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="images/foto2.jpg" alt="Miembro 2" class="team-image">
+                    <h3>Miembro 2</h3>
+                    <p>Descripción del perfil del miembro 2.</p>
+                </div>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="images/foto3.jpg" alt="Miembro 3" class="team-image">
+                    <h3>Miembro 3</h3>
+                    <p>Descripción del perfil del miembro 3.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- Card 4 -->
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="images/foto4.jpg" alt="Miembro 4" class="team-image">
+                    <h3>Miembro 4</h3>
+                    <p>Descripción del perfil del miembro 4.</p>
+                </div>
+            </div>
+            
+            <!-- Card 5 -->
+            <div class="col-md-4">
+                <div class="team-card">
+                    <img src="images/foto5.jpg" alt="Miembro 5" class="team-image">
+                    <h3>Miembro 5</h3>
+                    <p>Descripción del perfil del miembro 5.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
